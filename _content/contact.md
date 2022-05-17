@@ -4,14 +4,13 @@ layout: base
 name: contact
 ---
 
-# Contact LuSEE team
+# Contact D1 team
 
-* Anže Slosar - anze_at_bnl_dot_gov - software development, general management
-* Maxim Potekhin - potekhin_at_bnl_dot_gov - software engineering and site design
+_TBD_
 
-# Mailing List
+# Mailing Lists
 
-```lusee-night-l_at_lists.bnl.gov```
+_TBD_
 
 
 

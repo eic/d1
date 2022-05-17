@@ -7,7 +7,7 @@ name: about
 # About this site
 
 This site was designed to serve as an agile and easy to maintain
-collaborative tool for the LuSEE Collaboration. Documents are developed
+collaborative tool for the Detector-1 Collaboration. Documents are developed
 and kept in the
 <a href="https://www.markdownguide.org/basic-syntax/" target="_blank">Markdown Syntax</a>
 which is very human-readable and economical, being quite close to plain text.
@@ -33,7 +33,7 @@ having the actual database.
 ## GitHub
 
 If you are interested in contributing to this site
-please <a href="{{ '/content/contact.html' | relative_url }}">contact the devloper</a>
+please <a href="{{ '/content/contact.html' | relative_url }}">contact the developer</a>
 for more information. Menu items and pages can be quickly added as needed.
 Once a section is set up, creation of material amounts to editing text files
 (at least in most basic cases).
