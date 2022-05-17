@@ -5,9 +5,15 @@
             <li {% if page.name contains 'index' -%}class="active"{%- endif -%}>
               <a href="{{ '/' | relative_url }}">Home</a>
             </li>
-            <li {% if page.name=='science' -%}class="active"{%- endif -%}>
-              <a href="{{ '/content/science.html' | relative_url }}">Science</a>
+
+            <li {% if page.name=='collaboration' -%}class="active"{%- endif -%}>
+              <a href="{{ '/content/collaboration.html' | relative_url }}">Collaboration</a>
             </li>
+
+            <li {% if page.name=='meetings' -%}class="active"{%- endif -%}>
+              <a href="{{ '/content/meetings.html' | relative_url }}">Meetings</a>
+            </li>
+
             <li {% if page.name contains 'software' -%}class="active"{%- endif -%}><!--  class="active" -->
 
 	            <a href="#softwareSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Software</a>
@@ -24,10 +30,6 @@
 	            </ul>
 	          </li>
 
-
-	          <li {% if page.name=='reading' -%}class="active"{%- endif -%}>
-              <a href="{{ '/content/reading.html' | relative_url }}">Reading List</a>
-	          </li>
 
 	          <li {% if page.name=='contact' -%}class="active"{%- endif -%}>
               <a href="{{ '/content/contact.html' | relative_url }}">Contact</a>
